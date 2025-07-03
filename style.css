@@ -132,4 +132,93 @@
     #images img{
         width: 3vw;
     }
+        #footer {
+        background-color: #111;
+        color: #ffff;
+        padding: 4vh;
+
+    }
+
+    #footerend {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    #footerfront h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    #footerfront p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #ccc;
+    }
+
+    #iconsocial i {
+        font-size: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    #links {
+        display: flex;
+        flex: 1 1 300px;
+        justify-content: space-between;
+        margin-right: 100px;
+    }
+
+    #links ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #links li {
+        cursor: pointer;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #links a {
+        text-decoration: none;
+        color: #ccc;
+        font-size: 14px;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    #contato {
+        flex: 1 1 100%;
+        margin-top: 30px;
+    }
+
+    #contato h4 {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    #contato p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #final {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+
+    #final hr {
+        border: none;
+        border-top: 1px solid #555;
+        margin-bottom: 10px;
+    }
+
+    #final p {
+        font-size: 14px;
+        color: #ccc;
+    }
 }
